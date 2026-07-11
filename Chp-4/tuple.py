@@ -29,3 +29,6 @@ print(2 in tup1)
 # minimum and maximum function is used to get the smallest and the largest element in the tuple.
 print(min(tup2))
 print(max(tup2))
+
+a, b, c = tup1
+print(a, b, c)
