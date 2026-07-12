@@ -25,3 +25,8 @@ print(str.replace("  ", " "))
 # letter1 = '''Dear XYZ, This course is nice. Thanks!'''
 letter1 = '''Dear XYZ,\n\tThis course is nice.\nThanks!'''
 print(letter1)
+
+# Problem6: 
+
+letter2 = "Hii,/n My name is Goblin,/n and i am currently playing for team Soul"
+print(letter2)
