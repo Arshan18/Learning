@@ -54,3 +54,21 @@ print(len(set1))
 
 ss = {}
 print(type(ss))
+
+# Problem6: Create an empty dictionary. Allow 4 freinds to enter their favorite language as value and use key as their name. Assumethat the names are unique.
+
+d = {}
+
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name : lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name : lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name : lang})
+name = input("Enter friend name:")
+lang = input("Enter language name:")
+d.update({name : lang})
+print(d)
