@@ -41,3 +41,11 @@ s1 = set()
 s1.add(18)
 s1.add("18")
 print(s1)
+
+# Problem4: what will be the length of the following set:
+
+set1 = set()
+set1.add(20)
+set1.add(20.0)
+set1.add('20')
+print(len(set1))
