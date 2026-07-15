@@ -49,3 +49,8 @@ set1.add(20)
 set1.add(20.0)
 set1.add('20')
 print(len(set1))
+
+#  Problem5: s = {} | What is the type of s?
+
+ss = {}
+print(type(ss))
