@@ -28,4 +28,25 @@ else:
     print("Failed, better luck next time",total_percentage)
 
 # Problem 3: A spam comment is defined as a text containing following keywords:
-# "Make a lot af money", "buy now", "subscribe this", "click this". Wrtie a program to detect this spams.
+# "Make a lot of money", "buy now", "subscribe this", "click this". Wrtie a program to detect this spams.
+
+p1 = "Make a lot of money"
+p2 = "buy now"
+p3 = "subscribe this"
+p4 = "click this"
+
+message = input("Enter your comments: ")
+
+if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
+    print("This commment is a spam")
+else:
+    print("This comment is not a spam")
+
+# Problem 4: Write a program to find whether a given username contains less than 10 characters or not.
+
+userName = input("Enter userName:")
+
+if(len(userName)) <= 10:
+    print("Username contains less than 10 characters")
+else:
+    print("Username contains more than 10 characters")
