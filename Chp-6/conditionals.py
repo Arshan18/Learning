@@ -11,3 +11,16 @@ else:
 
 # If-elif-else example
 
+role = input("Enter your role:")
+
+if role == "Admin":
+    print("Access to all features")
+
+elif role == "Manager":
+    print("Access to reports and employees")
+
+elif role == "Employee":
+    print("Access to your dashboard")
+
+else:
+    print("Access Denied")
