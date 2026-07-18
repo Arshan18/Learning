@@ -91,5 +91,3 @@ print(d)
 # s = {8, 10, 18, "Jordan", [1, 3, 5]}
 
 # Answer: No, because a list cannot even be an element of a set. Python will raise a TypeError when creating the set.
-
-# Practicing python
