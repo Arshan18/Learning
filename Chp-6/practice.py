@@ -47,6 +47,48 @@ else:
 userName = input("Enter userName:")
 
 if(len(userName)) <= 10:
-    print("Username contains less than 10 characters")
+    print("Username contains less than or equal to 10 characters")
 else:
     print("Username contains more than 10 characters")
+
+# Problem 5: Write a program which finds oout whether a given name is present in a list or not.
+
+l = ["Naman", "Tanmay", "Rohit", "Khush", "Raj", "Gulrez"]
+
+name = input("Enter your name: ")
+
+if(name in l):
+    print("Your name is in the list")
+else:
+    print("Your name is not in the list")
+
+# Problem 6: Write a program to calculate the grade of a student from his marks from the following scheme:
+# 90-100 => O, 80-90 => A, 70-80 => B, 60-70 => C, 50-60 => D, 40-50 => E, <50 => F
+
+Marks = int(input("Enter you marks: "))
+
+if(Marks <= 100 and Marks >= 90):
+    grade = "O"
+elif(Marks < 90 and Marks >= 80):
+    grade = "A"
+elif(Marks < 80 and Marks >= 70):
+    grade = "B"
+elif(Marks < 70 and Marks >= 60):
+    grade = "C"
+elif(Marks < 60 and Marks >= 50):
+    grade = "D"
+elif(Marks < 50 and Marks >= 40):
+    grade = "E"
+else:
+    grade = "F"
+
+print("Your grade is:", grade)
+
+# Problem 7: Write a program to check whether an email mentions "meeting".
+
+email = input("Enter email:")
+
+if("meeting" in email.lower()):
+    print("Meeting-related email.")
+else:
+    print("No meeting mentioned")
